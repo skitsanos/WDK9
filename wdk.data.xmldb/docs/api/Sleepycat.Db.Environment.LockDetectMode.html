@@ -1,0 +1,51 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>Environment.LockDetectMode Enumeration</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <INPUT class="userDataStyle" id="userDataCache" type="hidden" />
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Berkeley DB XML .NET API</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">Environment.LockDetectMode Enumeration</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> Enumeration used to describe the kind of deadlock resolution to use. Used by <a href="Sleepycat.Db.Environment.DetectDeadlocks.html">DetectDeadlocks</a>
+            </p>
+<PRE class="syntax"><SPAN class="lang">[Visual Basic]
+</SPAN><b>Public Enum Environment.LockDetectMode
+</b><SPAN class="lang">[C#]
+</SPAN><b>public enum Environment.LockDetectMode
+</b><SPAN class="lang">[C++]
+</SPAN><b>public __value enum Environment.LockDetectMode
+</b><SPAN class="lang">[JScript]
+</SPAN><b>public enum Environment.LockDetectMode
+</b></PRE><h4 class="dtH4">Members</h4><div class="tablediv"><table class="dtTABLE" cellspacing="0"><tr valign="top"><th width="50%">Member Name</th><th width="50%">Description</th></tr>
+<tr valign="top"><td><b>DEFAULT</b></td><td> Use whatever lock policy was specified when the database environment was created. If no lock policy has yet been specified, set the lock policy to DB_LOCK_RANDOM. </td></tr>
+<tr valign="top"><td><b>EXPIRE</b></td><td> Reject lock requests which have timed out. No other deadlock detection is performed. </td></tr>
+<tr valign="top"><td><b>MAXLOCKS</b></td><td> Reject the lock request for the locker ID with the most locks. </td></tr>
+<tr valign="top"><td><b>MAXWRITE</b></td><td> Reject the lock request for the locker ID with the most write locks. </td></tr>
+<tr valign="top"><td><b>MINLOCKS</b></td><td> Reject the lock request for the locker ID with the fewest locks. </td></tr>
+<tr valign="top"><td><b>MINWRITE</b></td><td> Reject the lock request for the locker ID with the fewest write locks. </td></tr>
+<tr valign="top"><td><b>OLDEST</b></td><td> Reject the lock request for the locker ID with the oldest lock. </td></tr>
+<tr valign="top"><td><b>RANDOM</b></td><td> Reject the lock request for a random locker ID. </td></tr>
+<tr valign="top"><td><b>YOUNGEST</b></td><td> Reject the lock request for the locker ID with the youngest lock. </td></tr></table></div><h4 class="dtH4">Requirements</h4><p><b>Namespace: </b><a href="Sleepycat.Db.html">Sleepycat.Db</a></p><p><b>Assembly: </b>dbxml_dotnet (in dbxml_dotnet.dll)
+					</p><h4 class="dtH4">See Also</h4><p><a href="Sleepycat.Db.html">Sleepycat.Db Namespace</a></p><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;"><param name="Keyword" value="Environment.LockDetectMode enumeration"></param><param name="Keyword" value="Sleepycat.Db.Environment.LockDetectMode enumeration"></param><param name="Keyword" value="DEFAULT enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.DEFAULT enumeration member"></param><param name="Keyword" value="EXPIRE enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.EXPIRE enumeration member"></param><param name="Keyword" value="MAXLOCKS enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.MAXLOCKS enumeration member"></param><param name="Keyword" value="MAXWRITE enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.MAXWRITE enumeration member"></param><param name="Keyword" value="MINLOCKS enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.MINLOCKS enumeration member"></param><param name="Keyword" value="MINWRITE enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.MINWRITE enumeration member"></param><param name="Keyword" value="OLDEST enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.OLDEST enumeration member"></param><param name="Keyword" value="RANDOM enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.RANDOM enumeration member"></param><param name="Keyword" value="YOUNGEST enumeration member"></param><param name="Keyword" value="Environment.LockDetectMode.YOUNGEST enumeration member"></param></object><DIV CLASS="footer"><p><center><font color="red"><i></i></font></center></p></DIV><hr /><div id="footer"><p><a href="http://www.parthcomp.com">Copyright 2005 Parthenon Computing Ltd</a></p><p></p></div></div>
+  </body>
+</html>

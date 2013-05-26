@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wdk.utilities", "wdk.utilities.vbproj", "{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "testCriteriaBuilder", "..\_test\testCriteriaBuilder\testCriteriaBuilder.vbproj", "{AC718F64-4EE0-4854-BF0A-4E2F84762D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Shopping Engine (Debug)|Any CPU = Shopping Engine (Debug)|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Shopping Engine (Debug)|Any CPU.ActiveCfg = Shopping Engine (Debug)|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Shopping Engine (Debug)|Any CPU.Build.0 = Shopping Engine (Debug)|Any CPU
+		{AC718F64-4EE0-4854-BF0A-4E2F84762D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC718F64-4EE0-4854-BF0A-4E2F84762D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC718F64-4EE0-4854-BF0A-4E2F84762D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC718F64-4EE0-4854-BF0A-4E2F84762D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC718F64-4EE0-4854-BF0A-4E2F84762D5D}.Shopping Engine (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC718F64-4EE0-4854-BF0A-4E2F84762D5D}.Shopping Engine (Debug)|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

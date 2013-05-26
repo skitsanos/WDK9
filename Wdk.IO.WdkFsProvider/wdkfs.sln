@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost/wdkfs/", "http://localhost/wdkfs", "{44054512-98C7-4FA8-A2E9-F42854C08EE7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/wdkfs"
+		Debug.AspNetCompiler.PhysicalPath = "D:\ftp\projects_net.v2\WDK7\Wdk.IO.WdkFsProvider\www\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\wdkfs\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/wdkfs"
+		Release.AspNetCompiler.PhysicalPath = "D:\ftp\projects_net.v2\WDK7\Wdk.IO.WdkFsProvider\www\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\wdkfs\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\ftp\projects_net.v2\WDK7\Wdk.IO.WdkFsProvider\www\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44054512-98C7-4FA8-A2E9-F42854C08EE7}.Debug|.NET.ActiveCfg = Debug|.NET
+		{44054512-98C7-4FA8-A2E9-F42854C08EE7}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

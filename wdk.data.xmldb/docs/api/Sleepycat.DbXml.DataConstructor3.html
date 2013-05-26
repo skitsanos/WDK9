@@ -1,0 +1,51 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>Data Constructor (Byte[])</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <INPUT class="userDataStyle" id="userDataCache" type="hidden" />
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Berkeley DB XML .NET API</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">Data Constructor (Byte[])</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> Constructs a Data object from a byte array. </p>
+<PRE class="syntax"><SPAN class="lang">[Visual Basic]
+</SPAN><b>Public Sub New( _ 
+   ByVal <i>data</i> As <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemByteClassTopic.asp">Byte()</a> _ 
+)
+</b><SPAN class="lang">[C#]
+</SPAN><b>public Data(
+   <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemByteClassTopic.asp">byte[]</a> <i>data</i>
+);
+</b><SPAN class="lang">[C++]
+</SPAN><b>public: Data(
+   <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemByteClassTopic.asp">char</a> <i>data</i> __gc[]
+);
+</b><SPAN class="lang">[JScript]
+</SPAN><b>public function Data(
+   <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemByteClassTopic.asp">Byte[]</a> <i>data</i>
+);
+</b></PRE><h4 class="dtH4">Parameters</h4><dl><dt><i>data</i></dt><dd> The byte array to point to. </dd></dl><h4 class="dtH4">Remarks</h4>
+            <p> The byte array will be pinned in memory using <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemRuntimeInteropServicesGCHandleClassAllocTopic.asp">Alloc</a>, and then an IntPtr that points to it's data is obtained. </p>
+            <p> This will not copy the byte array, so changes made to it whilst the Data object is still active may result in undetermined effects. </p>
+            <h4 class="dtH4">See Also</h4><p><a href="Sleepycat.DbXml.Data.html">Data Class</a> | <a href="Sleepycat.DbXml.html">Sleepycat.DbXml Namespace</a> | <a href="Sleepycat.DbXml.DataConstructor.html">Data Constructor Overload List</a></p><DIV CLASS="footer"><p><center><font color="red"><i></i></font></center></p></DIV><hr /><div id="footer"><p><a href="http://www.parthcomp.com">Copyright 2005 Parthenon Computing Ltd</a></p><p></p></div></div>
+  </body>
+</html>

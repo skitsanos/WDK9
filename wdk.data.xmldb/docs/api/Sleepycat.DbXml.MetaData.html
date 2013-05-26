@@ -1,0 +1,59 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>MetaData Class</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <INPUT class="userDataStyle" id="userDataCache" type="hidden" />
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Berkeley DB XML .NET API</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">MetaData Class</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> A class that encapsulates document metadata. </p>
+      <p>For a list of all members of this type, see 
+							<a href="Sleepycat.DbXml.MetaDataMembers.html">MetaData Members</a>.</p>
+      <p>
+        <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassTopic.asp">System.Object</a>
+        <br />   <b>Sleepycat.DbXml.MetaData</b></p>
+<PRE class="syntax"><SPAN class="lang">[Visual Basic]
+</SPAN><b>Public Class MetaData
+    Implements <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b><SPAN class="lang">[C#]
+</SPAN><b>public class MetaData : <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b><SPAN class="lang">[C++]
+</SPAN><b>public __gc class MetaData : public <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b><SPAN class="lang">[JScript]
+</SPAN><b>public class MetaData extends <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b></PRE><H4 class="dtH4">Thread Safety</H4><P>Public static (<b>Shared</b> in Visual Basic) members of this type are 
+				safe for multithreaded operations. Instance members are <b>not</b> guaranteed to be 
+				thread-safe.</P><h4 class="dtH4">Remarks</h4>
+            <p> A metadata name consists of a namespace URI and a name. The namespace URI is optional but it should be used to avoid naming collisions. </p>
+            <p> The metadata attribute can be queried using an XQuery query that makes use of the special dbxml:metadata() function from within a predicate. To make use of this function, you must define a namespace for use with the query (it can be any random namespace). For example, suppose you had metadata whose name was "dateStamp". Then to query for documents that have a specific dateStamp value: </p>
+            <example>
+            <pre class="code">myQueryContext.setNamespace("ds", "http://randomNS/");
+Results results = myManager.Query(null, "collection('myCollection')[dbxml:metadata('ds:dateStamp')='10/30/2004]'", myQueryContext);
+</pre>
+            </example>
+            <p> If a given metadata attribute is indexed, it is possible to use <a href="Sleepycat.DbXml.Container.LookupIndex_overload_1.html">Container.LookupIndex</a> to perform fast document lookup based on metadata. </p>
+            <p> This class implements the IDisposable interface, and the <a href="Sleepycat.DbXml.MetaData.Dispose.html">Dispose</a> method should be called on it to avoid holding unnecessary unmanaged memory. </p>
+            <h4 class="dtH4">Requirements</h4><p><b>Namespace: </b><a href="Sleepycat.DbXml.html">Sleepycat.DbXml</a></p><p><b>Assembly: </b>dbxml_dotnet (in dbxml_dotnet.dll)
+					</p><h4 class="dtH4">See Also</h4><p><a href="Sleepycat.DbXml.MetaDataMembers.html">MetaData Members</a> | <a href="Sleepycat.DbXml.html">Sleepycat.DbXml Namespace</a></p><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;"><param name="Keyword" value="MetaData class, about MetaData class"></param></object><DIV CLASS="footer"><p><center><font color="red"><i></i></font></center></p></DIV><hr /><div id="footer"><p><a href="http://www.parthcomp.com">Copyright 2005 Parthenon Computing Ltd</a></p><p></p></div></div>
+  </body>
+</html>

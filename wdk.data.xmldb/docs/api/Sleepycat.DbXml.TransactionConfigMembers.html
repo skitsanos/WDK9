@@ -1,0 +1,103 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>TransactionConfig Members</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Berkeley DB XML .NET API</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">TransactionConfig Members
+					</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p>
+        <a href="Sleepycat.DbXml.TransactionConfig.html">TransactionConfig overview</a>
+      </p>
+      <h4 class="dtH4">Public Instance Constructors</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif" /><a href="Sleepycat.DbXml.TransactionConfigConstructor.html">TransactionConfig Constructor</a></td><td width="50%"> Creates a ManagerConfig object with default values set. </td></tr></table>
+      </div>
+      <h4 class="dtH4">Public Instance Properties</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="Sleepycat.DbXml.TransactionConfig.Degree2.html">Degree2</a></td><td width="50%"> This transaction will have degree 2 isolation. This provides for cursor stability but not repeatable reads. Data items which have been previously read by this transaction may be deleted or modified by other transactions before this transaction completes. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="Sleepycat.DbXml.TransactionConfig.DirtyRead.html">DirtyRead</a></td><td width="50%"> All read operations performed by the transaction may read modified but not yet committed data. Silently ignored if the DB_DIRTY_READ flag was not specified when the underlying database was opened. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="Sleepycat.DbXml.TransactionConfig.NoSync.html">NoSync</a></td><td width="50%"> Do not synchronously flush the log when this transaction commits or prepares. This means the transaction will exhibit the ACI (atomic, consistent, and isolated) properties, but not D (durable); that is, database integrity will be maintained but it is possible that this transaction may be undone during recovery. This behavior may be set for a Berkeley DB environment using the DbEnv::set_flags method. Any value specified to this method overrides that setting. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="Sleepycat.DbXml.TransactionConfig.NoWait.html">NoWait</a></td><td width="50%"> If a lock is unavailable for any Berkeley DB operation performed in the context of this transaction, cause the operation to return DB_LOCK_DEADLOCK or throw a DbDeadlockException immediately instead of blocking on the lock. </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubproperty.gif"></img><a href="Sleepycat.DbXml.TransactionConfig.Sync.html">Sync</a></td><td width="50%"> Synchronously flush the log when this transaction commits or prepares. This means the transaction will exhibit all of the ACID (atomic, consistent, isolated, and durable) properties. This behavior is the default for Berkeley DB environments unless the DB_TXN_NOSYNC flag was specified to the DbEnv::set_flags method. Any value specified to this method overrides that setting. </td></tr></table>
+      </div>
+      <h4 class="dtH4">Public Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassEqualsTopic.asp">Equals</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Determines whether the specified <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassTopic.asp">Object</a> is equal to the current <b>Object</b>.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassGetHashCodeTopic.asp">GetHashCode</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassGetTypeTopic.asp">GetType</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Gets the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemTypeClassTopic.asp">Type</a> of the current instance.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="pubmethod.gif"></img><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassToStringTopic.asp">ToString</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Returns a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String</a> that represents the current <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassTopic.asp">Object</a>.
+      </td></tr></table>
+      </div>
+      <h4 class="dtH4">Protected Instance Methods</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassFinalizeTopic.asp">Finalize</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Allows an <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassTopic.asp">Object</a> to attempt to free resources and perform other cleanup operations before the <b>Object</b> is reclaimed by garbage collection.
+      </td></tr>
+<tr VALIGN="top"><td width="50%"><img src="protmethod.gif"></img><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassMemberwiseCloneTopic.asp">MemberwiseClone</a> (inherited from <b>Object</b>)</td><td width="50%">
+        Creates a shallow copy of the current <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassTopic.asp">Object</a>.
+      </td></tr></table>
+      </div>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="Sleepycat.DbXml.TransactionConfig.html">TransactionConfig Class</a> | <a href="Sleepycat.DbXml.html">Sleepycat.DbXml Namespace</a></p>
+      <object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;">
+        <param name="Keyword" value="TransactionConfig class">
+        </param>
+        <param name="Keyword" value="Sleepycat.DbXml.TransactionConfig class">
+        </param>
+        <param name="Keyword" value="TransactionConfig class, all members">
+        </param>
+      </object>
+      <DIV CLASS="footer">
+        <p>
+          <center>
+            <font color="red">
+              <i>
+              </i>
+            </font>
+          </center>
+        </p>
+      </DIV>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="http://www.parthcomp.com">Copyright 2005 Parthenon Computing Ltd</a>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

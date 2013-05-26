@@ -1,0 +1,67 @@
+/*
+	Theme: Oldlace
+	Copyright: &copy; Evgenios Skitsanos
+	Contact: http://www.skitsanos.com/
+*/
+
+@charset "utf-8";
+
+.box_tl
+	{
+	height:12px;
+	width:12px;
+	background-image: url("images/boxes/oldlace/box_tl.gif");
+	background-repeat:no-repeat;
+	background-position:bottom;
+	}
+.box_cl
+	{
+	width:12px;
+	background-image: url("images/boxes/oldlace/box_cl.gif");
+	background-repeat:repeat-y;
+	}	
+.box_bl
+	{
+	height:12px;
+	width:12px;
+	background-image: url("images/boxes/oldlace/box_bl.gif");
+	background-repeat:no-repeat;
+	}
+.box_tc
+	{
+	height:12px;
+	background-image: url("images/boxes/oldlace/box_tc.gif");
+	background-repeat:repeat-x;
+	background-position:bottom;
+	}
+.box_bc
+	{
+	height:12px;
+	background-image: url("images/boxes/oldlace/box_bc.gif");
+	background-repeat:repeat-x;
+	}
+.box_tr
+	{
+	height:12px;
+	width:12px;
+	background-image:url("images/boxes/oldlace/box_tr.gif");
+	background-repeat:no-repeat;
+	background-position:bottom;
+	}
+.box_cr
+	{
+	width:12px;
+	background-image: url("images/boxes/oldlace/box_cr.gif");
+	background-repeat:repeat-y;
+	}	
+.box_br
+	{
+	height:12px;
+	width:12px;
+	background-image: url("images/boxes/oldlace/box_br.gif");
+	background-repeat:no-repeat;
+	}
+.box_content
+	{
+	background-color:#F3F2E0;
+	}

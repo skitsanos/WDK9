@@ -1,0 +1,59 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>Container.AddIndex Method</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <INPUT class="userDataStyle" id="userDataCache" type="hidden" />
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Berkeley DB XML .NET API</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">Container.AddIndex Method </h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> Adds an index of the specified type for the named document node in the scope of a transaction. </p>
+<PRE class="syntax"><SPAN class="lang">[Visual Basic]
+</SPAN><b>Public Sub AddIndex( _ 
+   ByVal <i>txn</i> As <a href="Sleepycat.DbXml.Transaction.html">Transaction</a>, _ 
+   ByVal <i>entry</i> As <a href="Sleepycat.DbXml.IndexSpecification.Entry.html">Entry</a>, _ 
+   ByVal <i>uc</i> As <a href="Sleepycat.DbXml.UpdateContext.html">UpdateContext</a> _ 
+)
+</b><SPAN class="lang">[C#]
+</SPAN><b>public <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemVoidClassTopic.asp">void</a> AddIndex(
+   <a href="Sleepycat.DbXml.Transaction.html">Transaction</a> <i>txn</i>,
+   <a href="Sleepycat.DbXml.IndexSpecification.Entry.html">Entry</a> <i>entry</i>,
+   <a href="Sleepycat.DbXml.UpdateContext.html">UpdateContext</a> <i>uc</i>
+);
+</b><SPAN class="lang">[C++]
+</SPAN><b>public: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemVoidClassTopic.asp">void</a> AddIndex(
+   <a href="Sleepycat.DbXml.Transaction.html">Transaction*</a> <i>txn</i>,
+   <a href="Sleepycat.DbXml.IndexSpecification.Entry.html">Entry*</a> <i>entry</i>,
+   <a href="Sleepycat.DbXml.UpdateContext.html">UpdateContext*</a> <i>uc</i>
+);
+</b><SPAN class="lang">[JScript]
+</SPAN><b>public function AddIndex(
+   <a href="Sleepycat.DbXml.Transaction.html">Transaction</a> <i>txn</i>,
+   <a href="Sleepycat.DbXml.IndexSpecification.Entry.html">Entry</a> <i>entry</i>,
+   <a href="Sleepycat.DbXml.UpdateContext.html">UpdateContext</a> <i>uc</i>
+);
+</b></PRE><h4 class="dtH4">Parameters</h4><dl><dt><i>txn</i></dt><dd> If the operation is to be transaction-protected, the txn parameter is an Transaction handle, otherwise it is a null reference
+				  (<b>Nothing</b> in Visual Basic). </dd><dt><i>entry</i></dt><dd> The index entry to add. </dd><dt><i>uc</i></dt><dd> The update context to use for the operation. </dd></dl><h4 class="dtH4">Remarks</h4>
+            <p> These methods are for convenience -- see <a href="Sleepycat.DbXml.IndexSpecification.AddIndex.html">IndexSpecification.AddIndex</a> for more information. </p>
+            <h4 class="dtH4">Exceptions</h4><div class="tablediv"><table class="dtTABLE" cellspacing="0"><tr valign="top"><th width="50%">Exception Type</th><th width="50%">Condition</th></tr><tr valign="top"><td width="50%"><a href="Sleepycat.DbXml.DbXmlException.html">DbXmlException</a></td><td width="50%"> If a failure occurs. </td></tr></table></div><h4 class="dtH4">See Also</h4><p><a href="Sleepycat.DbXml.Container.html">Container Class</a> | <a href="Sleepycat.DbXml.html">Sleepycat.DbXml Namespace</a></p><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;"><param name="Keyword" value="AddIndex method"></param><param name="Keyword" value="AddIndex method, Container class"></param><param name="Keyword" value="Container.AddIndex method"></param></object><DIV CLASS="footer"><p><center><font color="red"><i></i></font></center></p></DIV><hr /><div id="footer"><p><a href="http://www.parthcomp.com">Copyright 2005 Parthenon Computing Ltd</a></p><p></p></div></div>
+  </body>
+</html>

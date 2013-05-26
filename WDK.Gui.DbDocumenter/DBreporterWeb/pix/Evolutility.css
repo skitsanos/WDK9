@@ -1,0 +1,20 @@
+
+BODY {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #333333; 
+	background-color: #ffffff
+	}
+
+.rowheader 
+{
+	background: #DEE7F7 url(pix/bgpt.gif);
+	font-weight:bold ;
+	text-align:left;
+	}
+.roweven{background-color:#ECF0F6;}   
+.rowodd{background-color: #F3F4FD;}
+
+table { border: solid 1 #cccccc}
+
+.sql { font-family: Courier;
+	background-color: #F3F4FD;}

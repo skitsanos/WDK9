@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpCollection[]>
+<HelpCollection DTDVersion="1.0" FileVersion="2.1.0.0" LangId="1033" Title="Berkeley DB XML .NET API" Copyright="Copyright 2005 Parthenon Computing Ltd">
+  <TOCDef File="dbxml_dotnetCollection.HxT" />
+  <KeywordIndexDef File="dbxml_dotnetCollection_K.HxK" />
+  <KeywordIndexDef File="dbxml_dotnetCollection_F.HxK" />
+  <KeywordIndexDef File="dbxml_dotnetCollection_A.HxK" />
+  <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="FTS" />
+  <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A" />
+  <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F" />
+  <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K" />
+  <ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData="" />
+  <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="" />
+</HelpCollection>

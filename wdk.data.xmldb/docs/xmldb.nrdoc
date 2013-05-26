@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This document created by 9Rays.Net Spices.Net Documenter PlugIn 1.0.1965.30040 9Rays.Net (с) 2005-->
+<nrdoc>
+  <SynchronizationInfo>
+    <xmldb Location="G:\ftp\projects_net\wdk\net\wdk.data.xmldb\bin\Release\xmldb.dll" />
+  </SynchronizationInfo>
+  <doc>
+    <xmldb>
+      <WDK.Data>
+        <T name="XmlDbHttp">
+          <summary>
+            <para> </para>
+          </summary>
+          <remarks> </remarks>
+        </T>
+        <XmlDbHttp>
+          <M name="Version">
+            <summary>
+              <para> </para>
+            </summary>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="ProcessRequest(System.Web.HttpContext)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="context"> </param>
+            <remarks> </remarks>
+          </M>
+          <M name="Response(System.Xml.XmlElement,System.Int32,System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="xmlElement"> </param>
+            <param name="Status"> </param>
+            <param name="StatusText"> </param>
+            <remarks> </remarks>
+          </M>
+          <M name="ExtractValue(System.String,System.String,System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="VariableName"> </param>
+            <param name="QueryString"> </param>
+            <param name="Splitter"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="Execute(System.Xml.XmlElement,System.String,System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="xmlContext"> </param>
+            <param name="Document"> </param>
+            <param name="Query"> </param>
+            <remarks> </remarks>
+          </M>
+          <P name="IsReusable">
+            <summary>
+              <para> </para>
+            </summary>
+            <remarks> </remarks>
+          </P>
+        </XmlDbHttp>
+        <T name="XmlDb">
+          <summary>
+            <para> </para>
+          </summary>
+          <remarks> </remarks>
+        </T>
+        <XmlDb>
+          <M name="Exists(System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Database"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="CreateDatabase(System.String,System.Boolean)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Name"> </param>
+            <param name="Overwrite"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="AddDocument(System.String,System.String,System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Database"> </param>
+            <param name="Name"> </param>
+            <param name="Document"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="AddDocument(System.String,System.String,System.Xml.XmlDocument)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Database"> </param>
+            <param name="Name"> </param>
+            <param name="Document"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="AddDocument(System.String,System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Database"> </param>
+            <param name="Document"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="DocumentsCount(System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Database"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="ExecuteXquery(System.String,System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Database"> </param>
+            <param name="Query"> </param>
+            <returns> </returns>
+            <remarks> </remarks>
+          </M>
+          <M name="DeleteDatabase(System.String)">
+            <summary>
+              <para> </para>
+            </summary>
+            <param name="Name"> </param>
+            <remarks> </remarks>
+          </M>
+          <P name="CacheSize">
+            <summary>
+              <para> </para>
+            </summary>
+            <remarks> </remarks>
+          </P>
+          <P name="EnvironmentPath">
+            <summary>
+              <para> </para>
+            </summary>
+            <remarks> </remarks>
+          </P>
+        </XmlDb>
+      </WDK.Data>
+      <WDK />
+    </xmldb>
+  </doc>
+</nrdoc>

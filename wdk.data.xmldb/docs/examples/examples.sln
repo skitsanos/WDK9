@@ -1,0 +1,125 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_simpleAdd", "example_simpleAdd.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_addIndex", "example_addIndex.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_exampleLoadContainer", "example_exampleLoadContainer.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_deleteDocument", "example_deleteDocument.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_deleteIndex", "example_deleteIndex.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_modifyDocument", "example_modifyDocument.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_queryForDocumentValue", "example_queryForDocumentValue.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_queryForMetaData", "example_queryForMetaData.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_queryWithContext", "example_queryWithContext.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_queryWithDocumentNames", "example_queryWithDocumentNames.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_replaceIndex", "example_replaceIndex.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_simpleContainerInEnv", "example_simpleContainerInEnv.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_updateDocument", "example_updateDocument.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example_simpleQuery", "example_simpleQuery.csproj", "{93CE571D-783B-4381-91E9-5284D657F326}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.ActiveCfg = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Debug.Build.0 = Debug|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.ActiveCfg = Release|.NET
+		{93CE571D-783B-4381-91E9-5284D657F326}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

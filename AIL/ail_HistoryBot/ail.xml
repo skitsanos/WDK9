@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ail>
+  <applications>
+  	<instance name="IRC History Bot" type="Skitsanos.IRC.HistoryBot, ail_HistoryBot"/>
+  </applications>
+</ail>

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Basic Express 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "enews", "enews.vbproj", "{E99885BB-4260-4072-9847-88CF0C625329}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EmailMessage", "..\WDK.Network.Mail\EmailMessage\EmailMessage.vbproj", "{1977C972-7D82-4785-9CB5-E77C4F7AB9C1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wdk.utilities", "..\WDK.Utilities\wdk.utilities.vbproj", "{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Shopping Engine (Debug)|Any CPU = Shopping Engine (Debug)|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E99885BB-4260-4072-9847-88CF0C625329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99885BB-4260-4072-9847-88CF0C625329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99885BB-4260-4072-9847-88CF0C625329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99885BB-4260-4072-9847-88CF0C625329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99885BB-4260-4072-9847-88CF0C625329}.Shopping Engine (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99885BB-4260-4072-9847-88CF0C625329}.Shopping Engine (Debug)|Any CPU.Build.0 = Debug|Any CPU
+		{1977C972-7D82-4785-9CB5-E77C4F7AB9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1977C972-7D82-4785-9CB5-E77C4F7AB9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1977C972-7D82-4785-9CB5-E77C4F7AB9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1977C972-7D82-4785-9CB5-E77C4F7AB9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1977C972-7D82-4785-9CB5-E77C4F7AB9C1}.Shopping Engine (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{1977C972-7D82-4785-9CB5-E77C4F7AB9C1}.Shopping Engine (Debug)|Any CPU.Build.0 = Debug|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Shopping Engine (Debug)|Any CPU.ActiveCfg = Shopping Engine (Debug)|Any CPU
+		{5DDF6570-C69C-4DDF-BDD8-8D68CA988A9A}.Shopping Engine (Debug)|Any CPU.Build.0 = Shopping Engine (Debug)|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

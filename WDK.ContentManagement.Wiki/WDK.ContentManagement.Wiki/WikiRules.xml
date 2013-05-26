@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wiki version="1.0">
+	<Replacements>
+    <AltLink test="[[link|title]]">
+      <Expression><![CDATA[\[\[(.+)\|(.+)\]\]]]></Expression>
+      <Replacement><![CDATA[<a href="$1">$2</a>]]></Replacement>
+    </AltLink>
+    <Link test="[link]">
+      <!-- \[\[.+?\]\])|(\[.+?\] -->
+			<Expression><![CDATA[\[(.+)\]]]></Expression>
+			<Replacement><![CDATA[<a href="/wiki/$1.aspx">$1</a>]]></Replacement>
+		</Link>		
+		<ImageLink test="[imagelink:imgalign|title|imgsrc|pagelink]">
+			<Expression><![CDATA[\[imagelink:(.+)\|(.+)\|(.+)\|(.+)\]]]></Expression>
+			<Replacement><![CDATA[<a href="$4"><img src="$3" align="$1" />$2</a>]]></Replacement>
+		</ImageLink>
+    <NoWiki>
+			<Expression><![CDATA[\<nowiki\>(.|\n|\r)+?\<\/nowiki\>]]></Expression>
+			<Replacement><![CDATA[$1]]></Replacement>
+		</NoWiki>
+		<Bold>
+			<Expression><![CDATA['''(.+)''']]></Expression>
+			<Replacement><![CDATA[<b>$1</b>]]></Replacement>
+		</Bold>	
+    <BoldItalic>
+			<Expression><![CDATA['''''(.+)''''']]></Expression>
+			<Replacement><![CDATA[<b><i>$1</i></b>]]></Replacement>
+		</BoldItalic>
+    <Italic>
+      <Expression><![CDATA[''(.+)'']]></Expression>
+      <Replacement><![CDATA[<i>$1</i>]]></Replacement>
+    </Italic>
+    <Underlined>
+			<Expression><![CDATA[__(.+)__]]></Expression>
+			<Replacement><![CDATA[<u>$1</u>]]></Replacement>
+		</Underlined>
+    <Striked>
+      <Expression><![CDATA[\-\-(.+)\-\-]]></Expression>
+      <Replacement><![CDATA[<strike>$1</strike>]]></Replacement>
+    </Striked>
+    <Pre>
+      <Expression><![CDATA[\{\{\{\{(.+)\}\}\}\}]]></Expression>
+      <Replacement><![CDATA[<pre>$1</pre>]]></Replacement>
+    </Pre>
+    <Code>
+      <Expression><![CDATA[\{\{(.+)\}\}]]></Expression>
+      <Replacement><![CDATA[<code>$1</code>]]></Replacement>
+    </Code>
+		<H1>
+			<Expression><![CDATA[==([\d\w\-\s\.]*)==]]></Expression>
+			<Replacement><![CDATA[<h1>$1</h1>]]></Replacement>
+		</H1>
+		<H2>
+			<Expression><![CDATA[===([\d\w\-\s\.]*)===]]></Expression>
+			<Replacement><![CDATA[<h2>$1</h2>]]></Replacement>
+		</H2>
+		<H3>
+			<Expression><![CDATA[====([\d\w\-\s\.]*)====]]></Expression>
+			<Replacement><![CDATA[<h3>$1</h3>]]></Replacement>
+		</H3>
+		<H4>
+			<Expression><![CDATA[=====([\d\w\-\s\.]*)=====]]></Expression>
+			<Replacement><![CDATA[<h4>$1</h4>]]></Replacement>
+		</H4>
+		<CarriageReturn>
+			<Expression><![CDATA[(\r)]]></Expression>
+			<Replacement><![CDATA[<br />]]></Replacement>
+		</CarriageReturn>
+	</Replacements>
+</Wiki>

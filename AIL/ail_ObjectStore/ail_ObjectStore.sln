@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ail_ObjectStore", "ail_ObjectStore.vbproj", "{71FE37E6-C5AC-4472-8363-4F97C78B250B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WDK.ContentManagement.Pages", "..\..\..\WDK9\WDK.ContentManagement.Pages\WDK.ContentManagement.Pages.vbproj", "{0CC90171-AC75-44B6-9E10-2E6F4F318D8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71FE37E6-C5AC-4472-8363-4F97C78B250B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FE37E6-C5AC-4472-8363-4F97C78B250B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FE37E6-C5AC-4472-8363-4F97C78B250B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FE37E6-C5AC-4472-8363-4F97C78B250B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC90171-AC75-44B6-9E10-2E6F4F318D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC90171-AC75-44B6-9E10-2E6F4F318D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC90171-AC75-44B6-9E10-2E6F4F318D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC90171-AC75-44B6-9E10-2E6F4F318D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

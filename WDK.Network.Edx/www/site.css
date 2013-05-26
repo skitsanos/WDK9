@@ -1,0 +1,97 @@
+/* CSS Document */
+
+body
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#003366;
+	margin: 0 0 0 0;
+	}
+
+td 
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#333333;
+	}
+
+h1
+	{
+	font-size:24px;
+	font-weight:normal;
+	font-style:italic;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#ffffff;
+	margin-bottom:0px;
+	}
+		
+a, a:visited
+	{
+	text-decoration:none;
+	color:#0000FF;
+	}
+	
+a:hover
+	{
+	color:#ff6600;
+	}
+
+.footer
+	{
+	background-color:#efefef;
+	color:#666666;
+	padding:3px;
+	}
+	
+img
+    {
+        vertical-align:middle;
+    }
+hr
+	{
+	border:solid 1px #cccccc;
+	height:1px;
+	}
+	
+/*
+	------------------
+*/
+.logo
+	{
+	border-bottom:solid 3px #0081E7;
+	}
+	
+.SolidBorder
+	{
+	border: 1px solid #aaaaaa;
+	}
+.DashedBottom
+	{
+	border-bottom: 1px dashed #aaaaaa;
+	}
+.SourceCode, .sourcecode
+	{
+	font-family:"Courier New", Courier, mono;
+	font-size:11px;
+	padding:5px;
+	}
+	
+/* 
+	RSS Stylesheet
+*/
+.RssDate
+	{
+		color:#888888;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-style:italic;
+	}
+	
+.RssTitle
+	{
+		border-bottom:dotted 1px #aaaaaa;
+	}
+	
+.RssDescription
+	{
+		text-align:justify;
+	}

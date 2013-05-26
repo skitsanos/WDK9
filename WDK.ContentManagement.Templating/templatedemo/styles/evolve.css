@@ -1,0 +1,233 @@
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    background-color: #CBD0D4;
+    color: black;
+    margin: 20px 40px 20px 40px;
+}
+
+
+/* the main table that surrounds the whole webform */
+.maintable
+{
+  background-color: white;
+  border: solid 1px #7A92A1;
+  padding:0px;
+}
+
+
+/* the column on the right hand side of the page */
+.toolpane
+{
+  width:170px;
+  padding-left:5px;
+  padding-right:10px;
+  padding-top:20px;
+}
+
+/* left hand menu pane */
+.menupane
+{
+  padding-left:5px;
+  padding-top:20px;
+}
+
+
+.header
+{
+  height:57px;
+  background-color: #98A9BC; /* #EBEBEB; */
+  border-bottom: solid 1px #7A92A1; /*#98A9BC;*/
+}
+
+
+/* the footer cell */
+.footer
+{
+  border-top: solid 1px #7A92A1;
+  background-color: #E6EBEE;
+}
+
+/* the content within the footer cell */
+.footer td
+{
+  font-size: .60em; 
+  padding-left:5px;
+  padding-right:5px;
+}
+
+
+/* the center table cell that gets the main content */
+.contentcell
+{
+  vertical-align:top;
+  padding-top:20px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:10px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:0.70em;
+}
+
+/* for tables within the content cell */
+.contentcell td
+{
+  font-size:0.70em;
+}
+
+
+/* top level navigation */
+.mainmenu
+{
+  border-bottom: solid 1px #7A92A1;
+  background-color: #E6EBEE;
+  margin-bottom:10px;
+}
+
+/* override menu link appearance */
+.mainmenu a
+{
+  color:Black;
+  text-decoration:none;
+}
+
+.mainmenu a:hover
+{
+  text-decoration: underline;
+}
+
+
+.mainmenu .menuitem
+{
+  padding-right:5px;
+  width:100px;
+  text-align:center;
+  border-left: solid 1px #7A92A1;
+}
+
+.menuitem
+{
+    height:20px;
+  font-size: .60em;
+  font-weight:bold;
+}
+
+/* standard settings for all sections */
+.portalsection
+{
+   border: 1px solid #CDD2D3;
+	 padding:0px;
+	 background-color: #F2F0F0;
+	 text-align:left;
+}
+
+/* set width for sections in the tool pane */
+.toolpane .portalsection
+{
+  width:160px;
+}
+
+/* content within sections */
+.sectioncontent
+{
+  border-bottom-style:none;
+  border-top-style:none;
+  padding:0px; /* looks bad when minimized and padding is on */
+  font-family: verdana; 
+  font-size: .76em; 
+  text-decoration: none;
+  background-color: #F2F0F0;
+  color: black; 
+}
+
+
+/* content of toolpane sections have smaller fonts */
+.toolpane  .sectioncontent
+{
+  font-size:.60em;
+}
+
+
+/* title of the section header */
+.headertext 
+{
+  padding-left:3px;
+  font-family: verdana; 
+  font-size: .68em; 
+  text-decoration: none; 
+  color: #475F7D; 
+}
+
+
+
+p
+{
+  /* NEEDED TO CLEAR FLOATING IF DROP SHADOWS ARE USED */
+  clear:left;
+}
+
+
+.contentcell p
+{
+  text-align:justify;
+}
+
+
+/* make titles a bit bigger */
+.maintitle
+{
+  font-size:1.1em;
+  font-weight:bold;
+}
+
+.subtitle1
+{
+  font-family:Arial;
+  font-weight:bold;
+  background-color: #EFEFEF;
+  padding:1px;
+}
+
+
+/* content of the news section */
+.newsitem
+{
+  padding:2px;
+  padding-bottom:6px;
+  margin-top:5px;
+  margin-bottom:8px;
+}
+
+.newstitle
+{
+  font-weight:bold;
+  padding-bottom:3px;
+}
+
+.newslink
+{
+  padding-top:3px;
+}
+
+.bold
+{
+  font-weight:bold;
+}
+
+.error
+{
+  color: #CC3333;
+}
+
+.textbox
+{
+  font-size:1.0em;
+  border: solid 1px #7A92A1;
+  hdeight:20px;
+}
+
+.button
+{
+  font-size:1.0em;
+  border: solid 1px #7A92A1;
+  background-color: #E6EBEE;
+}

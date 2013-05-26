@@ -1,0 +1,17 @@
+﻿--- Pages Manager v.7.3
+--- @author Skitsanos.com
+
+SELECT     
+	Pages.id, 
+	Pages.ApplicationName, 
+	Pages.XmlData.value('/Page[1]/@file', 'nvarchar(max)') AS Filename, 
+	Pages.XmlData.value('/Page[1]/@title', 'nvarchar(max)') AS Title, 
+	Pages.XmlData.value('/Page[1]/Metas[1]/@keywords', 'nvarchar(max)') AS Keywords, 
+	Pages.XmlData.value('/Page[1]/Metas[1]/@description', 'nvarchar(max)') AS Description, 
+	Pages.XmlData.value('/Page[1]/@content', 'nvarchar(max)') AS PageContent, 
+	Pages.XmlData.value('/Page[1]/@hits', 'int') AS Hits, 
+    Pages.XmlData.value('/Page[1]/@createdOn', 'nvarchar(max)') AS CreatedOn, 
+	Pages.XmlData.value('/Page[1]/@updatedOn', 'nvarchar(max)') AS UpdatedOn,
+	Pages.XmlData.value('/Page[1]/@allowComments', 'int') AS AllowComments,
+	(SELECT COUNT(id) FROM PageComments WHERE PageId = Pages.id) AS Comments
+FROM Pages

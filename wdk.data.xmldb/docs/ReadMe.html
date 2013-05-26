@@ -1,0 +1,221 @@
+<html>
+  <head>
+    <title>Berkeley DB XML .NET API Read Me</title>
+    <style type="text/css"><!--
+
+body {
+	background: #ABCCE4 url(bg2.jpg) repeat-y center top;
+	margin: 0;
+	padding: 0;
+	text-align: center;        
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: underline;	
+}
+
+a:link {
+	color: #8FABBE;
+}
+
+a:visited {
+	color: #8FABBE;
+}
+
+a:active {
+	color: #8FABBE;
+}
+
+a:hover {
+	color: #006699;
+}
+
+#container {
+	line-height: 140%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 0px;
+	width: 728px;
+	
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+
+#banner {
+	font-family: Verdana, Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: #8FB6BB;
+	text-align: left;
+	padding-left: 15px;
+	height: 176px;
+	background: url(header.jpg) no-repeat center top;
+}
+
+#banner h1 {
+	font-size: 32px;
+}
+
+#banner h2 {
+	font-size: 16px;
+}
+
+.content {
+	padding: 15px 15px 5px 15px;
+	
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+}
+
+.content p {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.content h2 {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+
+	text-align: left;
+	font-weight: bold;
+
+	margin-bottom: 10px;
+}
+
+.content h3 {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+
+	text-align: left;
+	font-weight: bold;
+
+	margin-bottom: 10px;	
+}
+
+.content table {
+  width: 100%;
+  background-color: #8FB6BB;
+  font-size: 10px;
+}
+
+.content table tr th {
+  background-color: #8FB6BB;
+  color: #ffffff;
+}
+
+.content table tr {
+  background-color: #D0E7EE;
+  color: #666666;
+}
+
+.content pre {
+	line-height: 100%;
+	color: #666666;
+  font-family: monospace;
+  whitespace: pre;
+	background: #D0E7EE;
+	border: 2px solid #8FB6BB;
+	padding: 6px;
+	margin: 3px;
+}
+
+#windows, #linux {
+	border-bottom: 1px solid #999999;
+  margin-top: 30px;
+}
+
+    --></style>
+  </head>
+  <body>
+    <div id="container">
+
+    <div id="banner">
+      <a href="http://www.parthcomp.com" style="margin-left: -15px; width: 192px; height:83px; display: block; margin-bottom: 15px;"></a>
+      <h1>Berkeley DB XML .NET API</h1>
+      <h2>Read Me</h2>
+    </div>
+
+    <div class="content">
+
+    <div id="windows">
+
+      <div id="win1">
+        <h3>Using the .NET API in your Project</h3>
+        <p>
+          The DB XML .NET API assembly (<tt>bin/dbxml_dotnet.dll</tt>) has been installed into
+          the global assembly cache (GAC) for you. You should be able to access it through the
+          "Add Reference" dialog in visual studio, under the ".NET" tab, called "Berkeley DB XML .NET API".
+          The "Add Reference" dialog box can be found by right clicking on your project in Visual Studio,
+          and selecting "Add Reference".
+        </p>
+        <p>
+          Berkeley DB XML is written in C++, and relies on a number of native DLLs. You will need to make sure
+          that these DLLs are on the path when you run your program. If you have selected the default
+          install directory for both DB XML and the .NET API, then the DLLs you will need are:
+        </p>
+        <p>
+        <table>
+          <tr><th>DLL</th><th>Location</th><th>Purpose</th></tr>
+          <tr><td>libdbxml_dotnet21.dll</td><td>C:\Program Files\Berkeley DB XML .NET API\bin</td><td>.NET API Wrapper DLL</td></tr>
+          <tr><td>libdbxml21.dll</td><td>C:\Program Files\Sleepycat Software\Berkeley DB XML 2.1.8\bin</td><td>DB XML C++ DLL</td></tr>
+          <tr><td>libdb43.dll</td><td>C:\Program Files\Sleepycat Software\Berkeley DB XML 2.1.8\bin</td><td>Berkeley DB C++ DLL</td></tr>
+          <tr><td>libxquery11.dll</td><td>C:\Program Files\Sleepycat Software\Berkeley DB XML 2.1.8\bin</td><td>Berkeley XQuery DLL</td></tr>
+          <tr><td>Pathan_7.1.dll</td><td>C:\Program Files\Sleepycat Software\Berkeley DB XML 2.1.8\bin</td><td>Pathan XPath2 DLL</td></tr>
+          <tr><td>xerces-c_2_6.dll</td><td>C:\Program Files\Sleepycat Software\Berkeley DB XML 2.1.8\bin</td><td>Apache Xerces-C DLL</td></tr>
+        </table>
+        </p>
+        <p>These instructions use a Berkeley DB XML release number of 2.1.8. If that is not your release, adjust your paths accordingly.</p>
+      </div>
+
+      <div id="win2">
+        <h3>API Documentation</h3>
+        <p>
+          There is HTML API documentation available <a href="api/index.html">here</a>, and a
+          windows help file available <a href="api/Berkeley DB XML .NET API.chm">here</a>.
+        </p>
+        <p>
+          Context sensitive help has already been installed into Visual Studio .NET, if you have it
+          installed. This can be accessed by pressing F1 on any DB XML .NET term in the Visual Studio
+          editor.
+        </p>
+      </div>
+
+      <div id="win3">
+        <h3>Getting Started Examples</h3>
+        <p>
+          There are a number of example programs provided in the <tt>examples/src</tt> directory written in C#, if you chose to install them. These have been translated from
+          the Java getting started guide's examples. Project files for the examples have also been included and can be
+          accessed via the examples solution file (<tt>examples/examples.sln</tt>). A link to the examples solution file
+          should have been installed in your start menu.
+          The examples are very simple programs, that exhibit a wide range of common DB XML use cases using the .NET API.
+        </p>
+        <p>
+          Unfortunately, there is currently no .NET version of the getting started guide, but the Java version can be found
+          <a href="http://www.sleepycat.com/xmldocs/gsg_xml/java/BerkeleyDBXML-JAVA-GSG.pdf">here</a>.
+        </p>
+      </div>
+
+    </div>
+
+    <div>
+      <p>Written by John Snelson. Copyright 2005 Parthenon Computing Ltd.</p>
+    </div>
+
+    </div>
+    </div>
+  </body>
+</html>

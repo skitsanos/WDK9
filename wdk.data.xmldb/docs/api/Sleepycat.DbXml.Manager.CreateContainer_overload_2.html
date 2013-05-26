@@ -1,0 +1,60 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>Manager.CreateContainer Method (Transaction, String, ContainerConfig)</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <INPUT class="userDataStyle" id="userDataCache" type="hidden" />
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Berkeley DB XML .NET API</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">Manager.CreateContainer Method (Transaction, String, ContainerConfig)</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> Creates a container in the scope of a transaction, returning a Container object. </p>
+<PRE class="syntax"><SPAN class="lang">[Visual Basic]
+</SPAN><b>Public Function CreateContainer( _ 
+   ByVal <i>txn</i> As <a href="Sleepycat.DbXml.Transaction.html">Transaction</a>, _ 
+   ByVal <i>name</i> As <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String</a>, _ 
+   ByVal <i>config</i> As <a href="Sleepycat.DbXml.ContainerConfig.html">ContainerConfig</a> _ 
+) As <a href="Sleepycat.DbXml.Container.html">Container</a>
+</b><SPAN class="lang">[C#]
+</SPAN><b>public <a href="Sleepycat.DbXml.Container.html">Container</a> CreateContainer(
+   <a href="Sleepycat.DbXml.Transaction.html">Transaction</a> <i>txn</i>,
+   <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">string</a> <i>name</i>,
+   <a href="Sleepycat.DbXml.ContainerConfig.html">ContainerConfig</a> <i>config</i>
+);
+</b><SPAN class="lang">[C++]
+</SPAN><b>public: <a href="Sleepycat.DbXml.Container.html">Container*</a> CreateContainer(
+   <a href="Sleepycat.DbXml.Transaction.html">Transaction*</a> <i>txn</i>,
+   <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String*</a> <i>name</i>,
+   <a href="Sleepycat.DbXml.ContainerConfig.html">ContainerConfig*</a> <i>config</i>
+);
+</b><SPAN class="lang">[JScript]
+</SPAN><b>public function CreateContainer(
+   <a href="Sleepycat.DbXml.Transaction.html">Transaction</a> <i>txn</i>,
+   <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String</a> <i>name</i>,
+   <a href="Sleepycat.DbXml.ContainerConfig.html">ContainerConfig</a> <i>config</i>
+): <a href="Sleepycat.DbXml.Container.html">Container</a>;
+</b></PRE><h4 class="dtH4">Parameters</h4><dl><dt><i>txn</i></dt><dd> The transaction handle to use for this container creation, or a null reference
+				  (<b>Nothing</b> in Visual Basic). </dd><dt><i>name</i></dt><dd>
+            <p> The container's name. The container is created relative to the underlying environment's home directory (see <a href="Sleepycat.DbXml.Manager.html">Manager</a> for more information) unless an absolute path is used for the name; in that case the container is created in the location identified by the path. </p>
+            <p> The name provided here must be unique for the environment or an exception is thrown. </p>
+            </dd><dt><i>config</i></dt><dd> The configuration settings for the container </dd></dl><h4 class="dtH4">Exceptions</h4><div class="tablediv"><table class="dtTABLE" cellspacing="0"><tr valign="top"><th width="50%">Exception Type</th><th width="50%">Condition</th></tr><tr valign="top"><td width="50%"><a href="Sleepycat.DbXml.DbXmlException.html">DbXmlException</a></td><td width="50%"> If a failure occurs. </td></tr></table></div><h4 class="dtH4">See Also</h4><p><a href="Sleepycat.DbXml.Manager.html">Manager Class</a> | <a href="Sleepycat.DbXml.html">Sleepycat.DbXml Namespace</a> | <a href="Sleepycat.DbXml.Manager.CreateContainer_overloads.html">Manager.CreateContainer Overload List</a></p><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;"><param name="Keyword" value="CreateContainer method"></param><param name="Keyword" value="CreateContainer method, Manager class"></param><param name="Keyword" value="Manager.CreateContainer method"></param></object><DIV CLASS="footer"><p><center><font color="red"><i></i></font></center></p></DIV><hr /><div id="footer"><p><a href="http://www.parthcomp.com">Copyright 2005 Parthenon Computing Ltd</a></p><p></p></div></div>
+  </body>
+</html>

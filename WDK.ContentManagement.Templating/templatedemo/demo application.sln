@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "templatedemo", "http://localhost/templatedemo/templatedemo.csproj", "{8CD68082-37BF-4EEA-92C2-ACB22F3B50D1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8CD68082-37BF-4EEA-92C2-ACB22F3B50D1}.Debug.ActiveCfg = Debug|.NET
+		{8CD68082-37BF-4EEA-92C2-ACB22F3B50D1}.Debug.Build.0 = Debug|.NET
+		{8CD68082-37BF-4EEA-92C2-ACB22F3B50D1}.Release.ActiveCfg = Release|.NET
+		{8CD68082-37BF-4EEA-92C2-ACB22F3B50D1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿WDK Community Services Forums
+***
+
+Forum Group			[ForumGroupType]
+	Forum			[ForumType]
+		Topic		[ForumMessageType]
+			Reply	[ForumMessageType]

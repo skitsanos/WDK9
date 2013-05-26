@@ -1,0 +1,232 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B1FAE0B-FFC2-4D44-A157-57CF23CA600D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>dbxml_dotnet</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\BuiltInInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Container.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\ContainerConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Data.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\DbXmlException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Document.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\DocumentConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\EvaluationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\IndexSpecification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\InputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\DbEnv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\DbXml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\DbXmlPINVOKE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\DelegateInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\DelegateResolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\ExceptionCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\StringArrayIterator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlIndexDeclaration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlIndexSpecification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlMetaData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlMetaDataIterator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlModify.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlQueryContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlQueryExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlResolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlResults.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlStatistics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlUpdateContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Internal\XmlValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\LockMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Manager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\ManagerConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\MetaData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\MetaDataEnumerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Modify.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\NativeInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Node.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\NodeImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\QueryContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\QueryExpression.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Resolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Results.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\ReturnType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Statistics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Transaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\TransactionConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\UpdateContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\Value.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\DbXml\VerifyConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\Db\Environment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\Db\EnvironmentConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleepycat\Db\ErrorCallback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

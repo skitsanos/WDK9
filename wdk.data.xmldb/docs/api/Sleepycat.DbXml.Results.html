@@ -1,0 +1,57 @@
+<html dir="LTR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    </meta>
+    <meta name="generator" content="NDoc 1.3" />
+    <title>Results Class</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css">
+    </link>
+    <script src="ndoc.js" type="text/javascript">
+    </script>
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <INPUT class="userDataStyle" id="userDataCache" type="hidden" />
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead" nowrap="true">Berkeley DB XML .NET API</td>
+            <td class="product" nowrap="true">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">Results Class</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> The Results class encapsulates the results of a query. </p>
+      <p>For a list of all members of this type, see 
+							<a href="Sleepycat.DbXml.ResultsMembers.html">Results Members</a>.</p>
+      <p>
+        <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemObjectClassTopic.asp">System.Object</a>
+        <br />   <b>Sleepycat.DbXml.Results</b></p>
+<PRE class="syntax"><SPAN class="lang">[Visual Basic]
+</SPAN><b>Public Class Results
+    Implements <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemCollectionsIEnumeratorClassTopic.asp">IEnumerator</a>, <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b><SPAN class="lang">[C#]
+</SPAN><b>public class Results : <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemCollectionsIEnumeratorClassTopic.asp">IEnumerator</a>, <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b><SPAN class="lang">[C++]
+</SPAN><b>public __gc class Results : public <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemCollectionsIEnumeratorClassTopic.asp">IEnumerator</a>, <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b><SPAN class="lang">[JScript]
+</SPAN><b>public class Results extends <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemCollectionsIEnumeratorClassTopic.asp">IEnumerator</a>, <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemIDisposableClassTopic.asp">IDisposable</a>
+</b></PRE><H4 class="dtH4">Thread Safety</H4><P>Public static (<b>Shared</b> in Visual Basic) members of this type are 
+				safe for multithreaded operations. Instance members are <b>not</b> guaranteed to be 
+				thread-safe.</P><h4 class="dtH4">Remarks</h4>
+            <p> The result of a query is a collection of Value objects. An empty Results object can be created using <a href="Sleepycat.DbXml.Manager.CreateResults.html">Manager.CreateResults</a>. </p>
+            <p> A Results object is usually created by executing a query. There are several ways that a query is performed. One is to call <a href="Sleepycat.DbXml.Manager.Query_overload_1.html">Manager.Query</a> directly. This mechanism is appropriate for one-shot queries that will not be repeated. </p>
+            <p> A second approach is to create an QueryExpression using <a href="Sleepycat.DbXml.Manager.Prepare.html">Manager.Prepare</a>. You then execute the query expression using <a href="Sleepycat.DbXml.QueryExpression.Execute_overload_1.html">QueryExpression.Execute</a>. This approach is appropriate for queries that will be performed more than once as it means that the expense of compiling the query can be amortized across multiple queries. </p>
+            <p> Note that when you perform a query, you must provide a <a href="Sleepycat.DbXml.QueryContext.html">QueryContext</a> object. Using this object, you can indicate whether you want the query to be performed eagerly or lazily. If eager evaluation is specified (the default), then the resultant values are stored within the Results object. If lazy evaluation is selected, then the resultant values will be computed as needed. In this case the Results object will maintain a reference to the affected containers (<a href="Sleepycat.DbXml.Container.html">Container</a>), query context (<b>QueryContext</b>), and expression (<a href="Sleepycat.DbXml.QueryExpression.html">QueryExpression</a>). </p>
+            <p> The Results class implements the <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemCollectionsIEnumeratorClassTopic.asp">IEnumerator</a> interface, as well as adding the <a href="Sleepycat.DbXml.Results.MovePrevious.html">MovePrevious</a> method, to allow backwards iteration for eagerly evaluated Results objects. The <a href="Sleepycat.DbXml.Results.Add.html">Add</a> method and <a href="Sleepycat.DbXml.Results.Size.html">Size</a> property also require the Results object to have been evaluated eagerly. </p>
+            <p> This class implements the IDisposable interface, and the <a href="Sleepycat.DbXml.Results.Dispose.html">Dispose</a> method must always be called on it to allow the clean up of unmanaged memory and container handles. </p>
+            <blockquote class="dtBlock"><b>Note</b>    This class is analogue to the C++ class <code>XmlResults</code>. </blockquote>
+            <h4 class="dtH4">Requirements</h4><p><b>Namespace: </b><a href="Sleepycat.DbXml.html">Sleepycat.DbXml</a></p><p><b>Assembly: </b>dbxml_dotnet (in dbxml_dotnet.dll)
+					</p><h4 class="dtH4">See Also</h4><p><a href="Sleepycat.DbXml.ResultsMembers.html">Results Members</a> | <a href="Sleepycat.DbXml.html">Sleepycat.DbXml Namespace</a></p><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;"><param name="Keyword" value="Results class, about Results class"></param></object><DIV CLASS="footer"><p><center><font color="red"><i></i></font></center></p></DIV><hr /><div id="footer"><p><a href="http://www.parthcomp.com">Copyright 2005 Parthenon Computing Ltd</a></p><p></p></div></div>
+  </body>
+</html>

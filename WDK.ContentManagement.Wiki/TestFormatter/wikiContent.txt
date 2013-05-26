@@ -1,0 +1,16 @@
+﻿==WDK Wiki Formatter==
+''This page made to show you that WDK Wiki Formatter actually works''
+
+[WDK7 Notes for ASP.NET Developers]
+
+'''bold'''
+''italic''
+'''''bold italic'''''
+__underline__
+--strike--
+
+{{{{you can extend it with own Regular Expression based rules}}}}
+
+{{code part looks like this}}
+
+Skitsanos.com | [[http://labs.skitsanos.com|Skitsanos Labs]]

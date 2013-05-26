@@ -1,0 +1,84 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "xmldb", "xmldb.vbproj", "{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "debug_xmldb", "..\..\_debugs\debug_xmldb\debug_xmldb.vbproj", "{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "xmlcs", "..\..\..\xmlcontentserver\xmlcs\xmlcs.vbproj", "{91BCA310-31EF-4408-ACFD-560C5E033F97}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "xmlcsinstaller", "..\..\..\xmlcontentserver\xmlcsinstaller\xmlcsinstaller.vdproj", "{27E8A63C-7783-424D-B73C-B9F53F9AA9DF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QueryEngine", "..\..\..\xmlcontentserver\QueryEngine\QueryEngine.vbproj", "{C1117119-5E03-45C9-A81E-A55E780BFB0F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wdk.net.webserver", "..\wdk.net.webserver\wdk.net.webserver.vbproj", "{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Demo = Demo
+		Release = Release
+		www_debug = www_debug
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.Debug.ActiveCfg = Debug|.NET
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.Debug.Build.0 = Debug|.NET
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.Demo.ActiveCfg = Demo|.NET
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.Demo.Build.0 = Demo|.NET
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.Release.ActiveCfg = Release|.NET
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.Release.Build.0 = Release|.NET
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.www_debug.ActiveCfg = www_debug|.NET
+		{5A0DE8C7-9FFA-4D35-87CA-AC8DCE1BBF24}.www_debug.Build.0 = www_debug|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.Debug.ActiveCfg = Debug|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.Debug.Build.0 = Debug|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.Demo.ActiveCfg = Debug|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.Demo.Build.0 = Debug|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.Release.ActiveCfg = Release|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.Release.Build.0 = Release|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.www_debug.ActiveCfg = www_debug|.NET
+		{BC1C589B-02B9-4BD3-9053-9E2F0F2EBC33}.www_debug.Build.0 = www_debug|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.Debug.ActiveCfg = Debug|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.Debug.Build.0 = Debug|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.Demo.ActiveCfg = Debug|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.Demo.Build.0 = Debug|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.Release.ActiveCfg = Release|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.Release.Build.0 = Release|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.www_debug.ActiveCfg = www_debug|.NET
+		{91BCA310-31EF-4408-ACFD-560C5E033F97}.www_debug.Build.0 = www_debug|.NET
+		{27E8A63C-7783-424D-B73C-B9F53F9AA9DF}.Debug.ActiveCfg = Debug
+		{27E8A63C-7783-424D-B73C-B9F53F9AA9DF}.Demo.ActiveCfg = Debug
+		{27E8A63C-7783-424D-B73C-B9F53F9AA9DF}.Release.ActiveCfg = Release
+		{27E8A63C-7783-424D-B73C-B9F53F9AA9DF}.Release.Build.0 = Release
+		{27E8A63C-7783-424D-B73C-B9F53F9AA9DF}.www_debug.ActiveCfg = www_debug
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.Debug.ActiveCfg = Debug|.NET
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.Debug.Build.0 = Debug|.NET
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.Demo.ActiveCfg = Debug|.NET
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.Demo.Build.0 = Debug|.NET
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.Release.ActiveCfg = Release|.NET
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.Release.Build.0 = Release|.NET
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.www_debug.ActiveCfg = www_debug|.NET
+		{C1117119-5E03-45C9-A81E-A55E780BFB0F}.www_debug.Build.0 = www_debug|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.Debug.ActiveCfg = Debug|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.Debug.Build.0 = Debug|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.Demo.ActiveCfg = Debug|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.Demo.Build.0 = Debug|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.Release.ActiveCfg = Release|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.Release.Build.0 = Release|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.www_debug.ActiveCfg = www_debug|.NET
+		{20F9BB62-2DD9-491E-B2A1-28A4FCCDF6DA}.www_debug.Build.0 = www_debug|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

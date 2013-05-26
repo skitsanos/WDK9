@@ -1,0 +1,5 @@
+﻿<system.web>
+    <httpModules>
+      <add type="WDK.IO.ContentRouter,WDK.IO.ContentRouter" name="ContentRouter" />
+    </httpModules>
+  </system.web>
